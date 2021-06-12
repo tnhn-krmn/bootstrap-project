@@ -1,0 +1,141 @@
+//kendi oluşturduğum " variables " dosyası.
+@import "variables";
+// Bootstrap sass dosyasını ekleme
+@import "../bootstrap/scss/bootstrap";
+
+
+//nav 
+
+
+.clearfix {
+    clear: both;
+}
+
+.navbarmenu{
+
+    $yazikalinligi:600 ;
+    $yazirengi:white;
+
+    width: 100%;
+    height: 80px;
+    background-color: #212529;
+  
+
+    .logo {
+        float: left;
+        padding: 30px 0;
+       
+
+        a {
+            text-decoration: none;
+            color: $yazirengi;
+            font-weight: $yazikalinligi;
+        }
+    }
+
+    .sagmenu{
+        float: right;
+        width: auto;
+        height: 80px;
+
+
+        .menuitem{
+            float: left;
+
+
+            ul{
+                padding: 0;
+                margin: 0;
+                
+
+                li{
+
+                    display: inline-block;
+                    padding: 30px 10px;
+                    font-size: 14px;
+
+                    a{
+                        color: $yazirengi;
+                        font-weight: $yazikalinligi;
+                        text-decoration: none;
+                    }
+
+                }
+            }
+        }
+    }
+}
+//nav
+
+//slider başlangıç
+
+
+.sliderr{
+    $arkaplanrengi:grey;
+
+    $yazirengi:white !global ;
+    $yazikboyutu:75px !global;
+
+    background-color: $arkaplanrengi;
+
+    .yazi {
+    font-size: $yazikboyutu;
+    font-weight: 100;
+}
+
+
+.btn{
+    
+              $btnrenk:green;
+        background-color:$btnrenk;
+        ;
+        color: white;
+    
+    
+}
+}
+
+// 1.bölüm başlangıç 
+
+
+
+    
+
+
+
+.bolum1{
+    
+    height: 400px;
+
+    .btn{
+        
+        background-color: green;
+        float: right;
+        color: white;
+    
+    }
+
+    .h3{
+        margin-top: 70px;
+    }
+
+    .avatarresim{
+        float: right;
+        height: 100px;
+    }
+
+}
+
+
+//footer
+
+
+.footer{
+    $arkaplanrengi:black;
+    $yazirengi:white;
+    $yukseklik:250px;
+    background-color:$arkaplanrengi;
+    color: $yazirengi;
+
+    height: 250px;
+}
